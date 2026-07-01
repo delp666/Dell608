@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>PHP Variables</title>
+</head>
+<body>
+
+<h2>ผลลัพธ์</h2>
+
+<?php
+$a = 3;
+$b = 4;
+
+echo "ค่าของ \$a คือ $a <br>";
+echo "ค่าของ \$b คือ $b <br>";
+echo "ผลรวมของ \$a และ \$b คือ " . ($a + $b);
+?>
+
+<br><br>
+
+<h2>ผลลัพธ์</h2>
+
+<?php
+$A = "B";
+$$A = 20.5;
+
+echo "\$A=$A <br>";
+echo "\$\$A=" . $$A . "<br>";
+echo "\$B=$B";
+?>
+
+</body>
+</html>
